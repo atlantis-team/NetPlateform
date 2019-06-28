@@ -50,6 +50,7 @@ namespace CalculationAPI.Controllers
                 return arr;
             }
             return null;
+            { }
         }
     }
 }

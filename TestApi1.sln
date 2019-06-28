@@ -5,13 +5,15 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationEngine", "CalculationEngine\CalculationEngine.csproj", "{61AEFF6A-F424-464E-8311-DA7FDBB35BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricAPI", "MetricAPI\MetricAPI.csproj", "{DF3FE4EA-E72D-4C19-B1D3-56DDC40A0538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetricAPI", "MetricAPI\MetricAPI.csproj", "{DF3FE4EA-E72D-4C19-B1D3-56DDC40A0538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationAPI", "CalculationAPI\CalculationAPI.csproj", "{E37AF9DC-C111-403A-B762-0ADB8401F8A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationAPI", "CalculationAPI\CalculationAPI.csproj", "{E37AF9DC-C111-403A-B762-0ADB8401F8A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{7C1F3D40-598C-4BF6-9195-7AAF097BC5A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI", "CommandAPI\CommandAPI.csproj", "{489906EC-D266-484F-8453-A5DB070FC4C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandAPI", "CommandAPI\CommandAPI.csproj", "{489906EC-D266-484F-8453-A5DB070FC4C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIsNetPlateform", "APIsNetPlateform\APIsNetPlateform.csproj", "{F16EE76F-0D48-44EA-AE5C-F2B758CAB22F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{489906EC-D266-484F-8453-A5DB070FC4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489906EC-D266-484F-8453-A5DB070FC4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489906EC-D266-484F-8453-A5DB070FC4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16EE76F-0D48-44EA-AE5C-F2B758CAB22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16EE76F-0D48-44EA-AE5C-F2B758CAB22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16EE76F-0D48-44EA-AE5C-F2B758CAB22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16EE76F-0D48-44EA-AE5C-F2B758CAB22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
