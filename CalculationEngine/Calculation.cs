@@ -8,12 +8,12 @@ namespace CalculationEngine
 {
     class Calculation
     {
-        public float Average(float[] values)
+        public float Average(List<float> values)
         {
-            return values.Sum() / 2;
+            return values.Sum() / values.Count;
         }
 
-        public float Sum(float[] values)
+        public float Sum(List<float> values)
         {
             return values.Sum();
         }

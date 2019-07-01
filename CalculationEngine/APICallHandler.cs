@@ -12,7 +12,7 @@ namespace CalculationEngine
     class APICallHandler
     {
         public HttpClient _client;
-        private string path = "https://localhost:44329/";
+        private string path = "http://192.168.43.168:21061/........";
 
         public APICallHandler()
         {
@@ -24,7 +24,7 @@ namespace CalculationEngine
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<float[]> PostAsync()
+        public async Task<string> PostAsync()
         {
             try
             {
